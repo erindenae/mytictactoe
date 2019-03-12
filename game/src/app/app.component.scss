@@ -1,0 +1,30 @@
+.gameboard {
+    //border: 3px solid slategray;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 600px;
+    align-content: center;
+    margin: 0 auto;
+
+}
+.square {
+    width: 33%;
+    height: 33%;
+   
+    &.top {
+        border-bottom: 2px solid slategray;
+    }
+    &.left{
+        border-right:2px solid slategray;
+    }
+    &.bottom{
+        border-top:2px solid slategray;
+    }
+    &.right{
+        border-left:2px solid slategray;
+    }
+   
+
+}
